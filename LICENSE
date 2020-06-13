@@ -1,21 +1,310 @@
-MIT License
+Omega Super Male Chain (OMG)
+Opening a free mining era
 
-Copyright (c) 2020 OMEGA
+Preface
+In 1990, Sir Berners-Lee invented the World Wide Web and set up a decentralized network as a vision to bring the whole world together, collaborate with each other, and hand over the World Wide Web to the world for free. Throughout today's Internet industry, the spirit of decentralization has disappeared, and the monopoly of giants has shut everything out of free interconnection. Since Nakamoto released Bitcoin code in January 2009, the development of Bitcoin and blockchain technology has gone through more than a decade, and the banner of decentralization has been high again. Nowadays, the global social development has entered the fast lane, and mankind is ushered in the fourth wave revolution —— the digital economy era represented by blockchain technology. At present, the global economy is becoming more and more digital, and human society is entering a new stage marked by digital productivity. Digital technology has been regarded as the key direction of the new round of technological revolution and industrial transformation. Digital transformation provides an important engine for cultivating new kinetic energy of economic growth, and digital economy has become an important content of constructing modern economic system. The digital asset market represented by Bitcoin has developed rapidly, and the blockchain technology has been widely concerned around the world. Based on this, various decentralization projects and Dapp emerge in endlessly. Decentralization may be far away, but it is happening.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Directory
+一．Background
+二．Core strengths
+2.1 OMG Network
+2.2 POS+DPBFT Consensus mechanisms
+2.3 Decentralized system management
+2.4 High Performance Main Network
+三．OMG technology architecture
+3.1 The security advantages of the block chain itself
+Hellman key exchange Diffie elliptic curve
+3.3 Agent encryption
+3.4 Non-interactive zero-knowledge proof
+3.5 Open source fog calculations
+3.6 Technical Architecture Programme
+IV. Intelligent Contract Mechanism
+4.1 Intelligent Contract Algorithm (POS+DPBFT)
+4.2 Proof of interest
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+V. Turing validation
+5.1 Edge calculations
+VI. Decentralization applications (DAPP)
+6.1 OMG Decentralization application definition
+VII. OMG application scenarios
+VIII. Issue of Pass Card
+8.1 Issuance Scheme	
+8.2 Fund-use programmes
+8.3 OMG destruction plan
+九．Strategic plan
+十．Risk Tips
+XI. Disclaimer
+I. Background
+The greatest point of block chain is that it solves the problem of mutual trust between multiple nodes in a decentralized way, which we generally call consensus mechanism. Since the birth of BTC, the POW workload proof mechanism has become the first consensus mechanism in the encrypted currency world. At present, most of the main known coins, such as ETH、ETC、BHC、LTC, are proof of POW workload, mining with graphics cards, and the algorithm is not easy to crack.Bitcoin mining machines and graphics card mining machines have very high requirements: unstable and unstable power frequent power outages, engine room heat loss, operation and maintenance management technology is not in place, or mine national policy has been frequently rectified or permanently shut down, resulting in huge revenue losses. The most important thing is that the product iterates quickly, and can not switch other mining projects after elimination; the computing power of any machine and equipment is fixed and limited, the larger the computing power needs more machines, the more machines, the greater the final force. Simply put, like all kinds of mining in the real world, the more mining machines and workers are invested, the more minerals they dig, the more money they can sell.But this mining is not everyone can participate, because legal qualifications and technical barriers are not the capacity of the average person.
+OMG intelligent mining: with contribution value as calculation force proof. translated as proof of contribution or participation. refers to your contribution and participation in OMG. The aim is to create a low-threshold, everyone can participate in energy conservation and environmental protection of a new type of national free mining model.
+II. Core strengths
+2.1 OMG Network
+A network OMG block chain is a distributed network of all nodes, Each node on the network is in equal and equal power; The nodes have the ability to block data and validate transactions, Such point-to-point connection P2P network layer (Peer one to one) is the most important foundation on the block chain data layer; The underlying mechanism of nodes communicating with each other, connecting with each other and confirming the validity of data is realized. supporting the consensus mechanism is the soul of the blockchain. The design of the consensus mechanism determines whether a perfect incentive mechanism can be established, Encouraging more nodes to participate, and increase the dispersion of the system. In most common chains, The number of nodes is negatively correlated with the transmission rate, the balance between the number of nodes and system performance is another factor that consensus mechanisms need to consider. Common consensus mechanisms for blockchain public links include POW, POS, POS+DPBFT, PBFT wait.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2.2 POS+DPBFT Consensus mechanisms
+OMG matrix technology is based on innovative POS+DPBFT hybrid consensus mechanism, which is a new method to protect encrypted currency network.
+POS rights and interests proof, through the possession of the system Token quantity and time to distribute rights and interests, competing for the right to account. The competition POW pure computing power, POS increased the design of more systems, efficiency significantly improved, but also more suitable for commercial.
+POS advantages are obvious, according to the proportion of each node token and time, equal proportion to reduce the difficulty of mining, thus speeding up the speed of finding random numbers. To a certain extent, the time for consensus-building has been shortened, and a lot of energy is no longer needed to dig. Yet POS is also imperfect, and mining is needed, essentially without addressing the pain points of commercial applications, and there are in theory the effects of other attacks (e.g. DAO attacks at etheric workshops that cause hard, ETC failure to prove hard bifurcation). DPBFT is the abbreviation of DecentralizedPracticalByzantineFaultTolerance, meaning decentralized practical byzantine fault-tolerant algorithm. It solves the problem that the original Byzantine fault-tolerant algorithm is not efficient, which makes Byzantine fault-tolerant algorithm feasible in practical system application.
+DPBFT is a deterministic consensus, unlike POW such probabilistic consensus, all nodes of the whole network get the same persistent data through synchronization, solve the security problem from the data level, and also eliminate the "double flower "(double payment) at the consensus level. The principle is that there are some nodes in the system that will be treated as validation nodes, while the other nodes are observation nodes. All nodes in the system communicate with each other, and an efficient consensus of data is achieved by verifying that the minority of nodes obey the principle of majority.
+OMG adopted the hybrid mechanism in the consensus layer POS+DPBFT, which is an important mechanism to maintain the benign development of the OMG ecosystem, and there will be no hard bifurcation, thus ensuring the safety of the main chain. By means of the POS method of mortgage election, the observation node can join and exit the verification node dynamically, and the whole network ensures that the node can follow
+Time to join, exit, thus ensuring the decentralization, but also retain the subsequent extension. OMG the efficient and stable work of the blockchain system.
+Figure: POS+DPBFT consensus mechanism
+
+2.3 Decentralized system management
+As a decentralized platform, OMG is supported by a fully transparent decentralized autonomy system. This structure allows each card holder to clearly understand all the technology construction and value flow within the platform foundation, fully reflect the credibility of the block chain value. all decisions within the OMG are based on the referendum decision of the card holder, and all technical updates are publicized by the community. A completely decentralized management system will completely avoid the disadvantages of centralized management in traditional institutions. It provides an excellent and risk-free solution to the problems of centralization of management, tampering with data and decision-making of foundation.
+In order to ensure the fairness and smooth circulation of OMG value and prevent the occurrence of large-scale control and dark box operation in the history of forming block chain, OMG not only the technical characteristics mentioned above as the support for the real establishment of decentralized autonomous management, but also from a number of core global financial institutions to hire financial audit, analysis, investment and other practitioners to join the financial regulatory board to provide professional supervision and guidance from the financial perspective. At the same time, the digital asset trading platform on the OMG block chain has a high degree of industry foresight, and has been matched to launch a number of innovative financial services.
+
+
+
+2.4 High Performance Main Network
+The core architect and R & D staff of the project team are from the middle and bottom communication teams of internationally renowned technology companies, each with more than 10 years of R & D experience. The team has experienced many years of high concurrent business testing, and has a very deep understanding of the application of distributed systems. In system tuning, problem diagnosis, the team also gathered a large number of high-end talent. Because the overall architecture can be based on the number and size of users to quickly scale the corresponding services, to give users the best experience, to ensure that the user experience in each region is equally high response. At the same time, the trading platform makes full use of CDN、 cache, memory matchmaking and other technical means to improve the overall performance and optimize the user experience to the maximum extent.
+the overall throughput of the system depends on the service of the shortest board on the one hand, and the overall design model on the other. OMG database services and other service components of the trading platform are tuned to take full advantage of the high performance of public cloud services. Core development team has many years of practical experience, using responsive architecture design, to maximize the system throughput and expansion. Trading platform in the implementation of matchmaking engine has been optimized and improved many times, with a fairly superior matchmaking performance.
+
+III. OMG technology architecture
+3.1 The security advantages of the block chain itself
+Today hackers can break the entire network, tamper with data, or induce careless users to fall into security traps. They steal identity theft and raise other security threats through attacks on centralized databases and single-point failures. But the mode of data storage and sharing in blockchain technology is quite different from the current information security. Both bitcoin and ethernet use the same cryptography technology to secure transactions, but now they can also be used as a tool to guard against security attacks and security threats. The advantages of block chain in information security mainly lie in the following aspects:
+Data integrity of information is guaranteed by using high redundancy databases
+• Data validation using cryptography principles to ensure non-tampering
+• In terms of access management, the multi-private key rule is used for access control
+• The transaction data on the block chain are all digitally signed by the trader and can not be forged
+Using the security advantage of block chain to develop multiple security applications
+CertCoin developed by MIT may be the first application of blockchain-based PKI. PKI is a common form of public key cryptography that can be used to protect mail, message applications, websites, and other forms of communication. Yet since most PKI interfaces rely on centralized, trusted third-party certification bodies (CA) to issue, revoke, and save key pairs for each participant, hackers can access encrypted communications by falsely using the user's identity. And the CertCoin removes the central authority, uses the block chain as the distributed account book to distribute the public key, can effectively reduce the hacker single point intrusion risk.
+Based on the block chain structure, the authentication is decomposed into three parts: existence proof, process proof and auditable proof. For the authentication processing of any digital asset, the security and supervision compliance of data records can be achieved according to these three steps.
+
+Hellman key exchange Diffie elliptic curve
+Elliptic Curve Cryptography (English Ellipticcurvecryptography,) abbreviated as ECC), An algorithm for building public key encryption, based on elliptic curve mathematics. the use of elliptic curves in cryptography was proposed independently by NealKoblitz and VictorMiller in 1985. The main advantage of ECC is that in some cases it uses smaller keys than other methods —— such as RSA encryption algorithms to provide comparable or higher levels of security. Another advantage of ECC is the ability to define bilinear maps between groups, Weil right or Tate right; Bilinear mapping has found a lot of applications in cryptography, such as identity-based encryption. The elliptic curve Diffie a Hellman of key exchange (EllipticCurveDiffie–HellmankeyExchange,) abbreviated as ECDH), is an anonymous key license protocol (Key agreementprotocol). Under this agreement, The two sides Diffie a key exchange Hellman, Using the pair of public and private keys established by elliptic curve encryption, In an unsafe passage, Set up secure co-encrypted data. This is a variation Hellman Diffie key exchange, Elliptic curve encryption is used to enhance security.
+
+
+
+
+
+
+
+OMG the key pair is generated by the elliptic curve encryption algorithm, the key pair includes a private key and the public key derived from it. The private key is used for the digital signature when sending the data, and the public key is used to verify the source of the data. Digital signature ensures the consistency of the data on the chain and prevents the data from being maliciously tampered with.
+k the private key is from 0 to. A 256-bit binary number randomly selected between (slightly less than 2^256), usually expressed in 64-bit hexadecimal numbers for simplicity. A public key can be calculated from the private key by the elliptic curve algorithm: K=k*G, this is an irreversible process. G is the generating point in the elliptic curve algorithm.
+a public-private key pair data signature algorithm based on the elliptic curve encryption algorithm is called the elliptic curve digital signature algorithm (EllipticcurveDigitalSignatureAlgorithm), where the signature key is the private key of the user and the signed "information" is the data uploaded or updated by the device.
+When the user sends or updates the data to the chain, he signs the data with his own private key and publishes the corresponding public key at the same time. Other nodes verify the signature based on the data sent or updated and the public key published by the device. Only the owner of a private key that produces such a public key can generate a specific signature of the information to be sent. It is thus possible to verify that data is emitted by a device that can not tamper with the information sent.
+
+Proxy encryption (English: ProxyRe Encryption) is a key conversion mechanism between ciphertext, and the whole ciphertext transmission process involves three subjects: authorized person, agent, authorized person. The authorized person can decrypt the ciphertext encrypted with his own public key with his own private key, but can not share the ciphertext content with the authorized person, because the authorized person does not have the private key of the authorized person. Agent encryption solves the problem of private key owner (authorized person) sharing ciphertext content with others.
+
+3.5 Open source fog calculations
+Fog computing (FogComputing), a name coined by professor stelford of columbia university in new york, was designed to use "fog" to block hacking. Cisco later formally proposed for the first time, giving a new meaning to fog computing. fog computing is an iot-oriented distributed computing infrastructure that can extend computing power and data analysis applications to network "edges ", which enables customers to analyze and manage data locally, thus obtaining real-time insights through connected networks.
+In a 2012 article on cloud data security by el salvador et al. proposed that by using false information as bait to "catch" the stolen "mole ", the purpose of protecting users' real information is different from cloud computing to save all data, data processing and applications in the cloud, and fog computing disperses them in devices on the edge of the network.
+i.e., between cloud servers and iot (IOT) devices, computing, storage and network communication services are provided using network devices (routers, mobile phones, switches, set-top boxes, proxy servers, etc.) or dedicated devices to bring data and computing closer to the terminal devices, thereby reducing the computing and storage overhead of cloud servers and increasing the response speed and network bandwidth of the application system. The name "fog computing" is because fog is closer to the ground than clouds. Fog computing does not have strong computing power, because computing power is provided by computer peripheral and peripheral and scattered computing equipment.
+Fog computing (FogComputing) mainly uses devices in edge networks, and data transfer has extremely low delay. Fog computing has a vast geographical distribution and is a large-scale sensor network with a large number of network nodes. Fog computing mobility is good, mobile phones and other mobile devices can communicate directly with each other, the signal does not have to go to the cloud or even the base station to go around, supporting high mobility.
+The fog computing part uses OpenFog open source part in the OMEGA trading platform, which can OpenFog meet three basic needs: low delay, maintaining user privacy, and multi-channel links.
+
+Figure: OpenFog open source fog computing architecture
+
+3.3 Agent encryption
+Agent re-encryption is to entrust trusted third parties or semi-authentic agents to their own public key encryption ciphertext into the other private key can be untied ciphertext to achieve password sharing. Most computing companies in the real world don't have any credibility. You ca n' t guarantee what it does with your data or whether it will sell to other companies. The only solution is to encrypt it and put it on the cloud to get the ciphertext form, and we want the other party that we want to share the secret to get the plaintext of the ciphertext, the ciphertext that we used to our public key. Only our private key can be unlocked and transformed into the other private key. This process is proxy encryption.
+ 
+
+
+
+The authorizer uses his own private key and the public key of the authorized person to generate the algorithm through the re-encryption key, which is given to the agent. After the agent receives the ciphertext message of the authorized person, the ciphertext can not be decrypted by the encryption key. The agent then sends the encrypted ciphertext to the authorized person. The authorized person decrypts the ciphertext with his own private key.
+
+3.4 Non-interactive zero-knowledge proof
+Zero proof of knowledge (English: Zero—KnowledgeProof), is S. by Goldwasser、S. Micali and C. Rackoff proposed in the early 1980s. It refers to the ability of the certifier to convince the verifier that a certain assertion is correct without providing the verifier with any useful information. Zero-knowledge proof is essentially an agreement involving two or more parties, i.e. a series of steps required by two or more parties to accomplish a task. the certifier certifies to the certifier and makes it believe that it knows or owns a message, but the proof process can not leak any information about the proven message to the certifier.
+
+OMG adopt the zero knowledge proof mechanism to confirm the right to the user's digital assets. When assets are traded, ownership, transfer, adoption, interaction zero knowledge proof. That is, through the use of a common random string shared by both parties (such as third-party payment, third-party logistics, insurance, etc.) to achieve zero knowledge proof, determine the transfer of ownership completed, asset re-confirmation.
+
+3.6 Technical Architecture Programme
+OMG of the underlying technical architecture scheme, the overall architecture is composed of nine dimensions, the following figure for the nine dimensions of the basic division;
+
+(1). Infrastructure (InfraOMGructure)
+OMG infrastructure layer provides operating systems and hardware facilities (including physical servers, cloud hosts, etc.) for the normal operation of the blockchain system, which can be subdivided into three areas:
+Calculated resources (CPU、GPU、ASIC, etc.)
+Storage resources (hard disk)
+Network resources (bandwidth)
+
+(2)Basic Components (Utility)
+OMG basic component layer to record, verify and propagate information in blockchain system. Block chain is a distributed system based on communication mechanism, verification mechanism and storage mechanism. There is no centralized hardware or management organization in the whole network. Any node has the opportunity to participate in the record and verification of the general ledger, broadcast the calculation results to other nodes, and the damage or exit of any node does not affect the operation of the whole system.
+
+(3)Accounts (Ledger)
+OMG the account layer is responsible for the information storage of the blockchain system, including collecting transaction data, generating data blocks, verifying the legitimacy of local data, and adding the approved blocks to the chain.
+
+OMG book layer embeds the Hash signature of the previous block into the next block to form a block chain type data structure, which ensures the integrity and authenticity of the data, which is the source of tamper-proof, traceability characteristics of the block chain system. The typical block chain system data book design adopts a block chain data structure stored in chronological order. There are two types of data recording in the ledger: asset-based and account-based. In the asset-based model, the asset is first modeled as the core, and then the ownership of the asset is recorded, that is, ownership is a field of the asset. In the account-based model, establish an account as the object of assets and transactions, and the asset is a field under the account.
+Advantage analysis:
+OMG account-based data model: easy to record, query related information, asset-based data model: high concurrency to obtain high concurrent processing performance, and timely query account phase.
+
+(4). Consensus (Consensus)
+OMG consensus layer is responsible for coordinating and ensuring the consistency of data records of each node in the whole network.
+The data in the block chain system is stored independently by all nodes. Under the coordination of the consensus mechanism, the consensus layer synchronizes the books of each node, so as to realize the functions of node election, data consistency verification and data synchronization control.
+OMG data synchronization and consistency coordination make the blockchain system have the characteristics of information transparency and data sharing.
+
+(5). Intelligent Contract (SmartContract)
+OMG intelligent contract layer is responsible for implementing, compiling and deploying the business logic of the blockchain system in the form of code, completing the conditional trigger and automatic execution of the established rules, and minimizing manual intervention.
+OMG the operating objects of intelligent contract are mostly digital assets, the application of intelligent contract has high value and high risk because it is difficult to modify and trigger condition after data chain.
+OMG smart contracts are simpler, more efficient, and more secure, though they can not perform complex logical operations.
+
+(6). Systems Management (SyOMGemManagement)
+OMG system management is responsible for the management of other parts of the blockchain architecture, mainly including authority management and node management functions. OMG permission management is a key part of blockchain technology, especially for license chains with more requirements for data access. Permission management can realize decentralized authority control by submitting permission list to account layer.
+
+(7). Interface (Interface)
+OMG interface layer is mainly used to complete the encapsulation of functional modules, and provides a concise way to call the application layer.
+OMG application layer communicates with other nodes by calling the RPC interface, and accesses, writes and so on the local account data by calling the SDK toolkit.
+Meanwhile, RPC and SDK shall observe the following rules:
+First, the function is complete, can complete the transaction and maintain the distributed account book, has the perfect intervention strategy and the authority management mechanism.
+Second, good portability, can be used in a variety of applications in a variety of environments, not limited to some absolute software or hardware platform.
+The third is scalability and compatibility, should be as far forward and backward as possible compatibility, and in the design to consider scalability easy to use, should use structured design and good naming methods to facilitate the use of developers. Common implementation techniques include calling control and serializing objects.
+
+(8). Upper application (Application)
+OMG application layer as the part of the final presentation to the user, the main function is to call the interface of the intelligent contract layer, adapt all kinds of application scenarios of the block chain, and provide various services and applications for the user.
+Because the OMG has the attribute of data confirming right and the characteristic of value network, a lot of work in product application can be handled by the underlying blockchain platform at present.
+OMG in the process of block chain application, the previous work must be very careful, and the decentralized public chain, the efficient alliance chain or the secure private chain should be reasonably selected as the underlying architecture to ensure that the core algorithm has no fatal error problem during the design phase.
+hence, OMG reasonably encapsulate the underlying blockchain technology and provide a one-stop blockchain development platform will be an inevitable trend of application layer development. At the same time, the maturity of cross-chain technology can increase the flexibility of application layer when selecting system architecture.
+9. Operations Management (Maintenance)
+OMG operation and maintenance management is mainly responsible for the daily operation and maintenance of the blockchain system, including logging, monitoring, management and extension.
+Under the unified architecture, the mainstream platforms are different according to their own needs and positioning, and the storage modules, data models, data structures, programming languages, sandbox environments and so on in their blockchain systems are also very different.
+The following table compares architectural differences
+Platform differences	Bitcoin	Ethernet Square	OMG
+Programming languages	Script	Solidity	Go/Java
+Sandbox Environment	None	EVM	EVM
+Consensus algorithm	PoW	PoS	POS+DPBFT
+Data type	Assets	Accounts	Accounts
+Block storage	File storage	LevelDB	LevelDB/CouchDB
+
+IV. Intelligent Contract Mechanism
+4.1 Intelligent Contract Algorithm (POS+DPBFT)
+OMG architecture uses the only blockchain consensus (POS+DPBFT) so far that meets the above performance requirements. According to this algorithm, the people who hold tokens in the whole network can select the block producer through the voting system, and once elected, anyone can participate in the production of the block.
+A block is expected to be produced every 3 seconds in the OMG. at any time, only one producer is authorized to generate blocks. Skip a block if it does not succeed at some point.
+If the blocker misses a block and does not produce any blocks in the last 24 hours, the blocker will be deleted. which ensures the smooth operation of the network.
+under normal circumstances, POS+DPBFT block chain does not experience any bifurcation because block producers cooperate to produce blocks rather than compete. If there is a block bifurcation, the consensus will automatically switch to the longest chain. the blockchain length with more producers will grow faster than the blockchain with less producers. in addition, no block producers should produce blocks on both block chain forks at the same time. if a block producer finds out to do so, it may be voted out.
+
+Transaction Recognition:
+Block chains maintained by POS+DPBFT consensus algorithms are generally 100% online. This means that after an average of 1.5 seconds a transaction is written into the block chain and known to all outgoing nodes. This means that it takes only 1.5 seconds for a transaction to be identified as 99.9% being received by block links.
+
+A few unusual cases, for example, bug,Internet congestion or malicious blockers appear, the block chain may appear bifurcation. to ensure a transaction is irreversible, can wait for 5 blocks to confirm. According to the OMG configuration, it takes an average of 3-5 seconds for 5 blocks to confirm under normal conditions.
+
+Within nine seconds of the bifurcation, the outgoing node may discover the bifurcation and warn the user. When a node looks at the network, it finds two consecutive block-loss events, which means that the node is 95% likely to be on the bifurcation branch of the block chain. After 3 consecutive blocks are lost, the node is 99% likely to be on a split-out block chain. a prediction model can be generated that will take advantage of the information lost by the node, the recent participation rate, and other factors to quickly warn the user of what is wrong.
+
+the response to this warning is entirely dependent on the nature of the business transaction, but the simplest response is to wait for 8 confirmations until the warning stops.
+
+Certificate of transaction (TaPoS);
+OMG require each transaction to include the nearest block head of Hasi. The hash has two purposes:
+1. prevent a large number of transaction records on the bifurcation block chain;
+2. allows the system to sense whether the user is on a split block chain
+
+Over time, all users end up confirming the blockchain directly, which makes it difficult to forge counterfeit chains, because counterfeiting will not be able to migrate transactions from legitimate links.
+
+Byzantine fault-tolerant mechanism of equity consensus mechanism POS+DPBFT、 dynamic equity consensus mechanism. the purpose of the consensus mechanism is to achieve data consistency using distributed algorithms. as the theorem states, consensus can not be reached unless all nodes reach 100% agreement. In the Bitcoin network, miners participate in transaction verification through workload proof mechanism hash collision. When the miners calculate a hash value that satisfies certain conditions, the miners can announce the birth of new blocks to the whole network:
+
+M is the number of miners, D it's hard to dig, For S256 hash operation, The output value ranges from [0, M]. Bitcoin's S-256 hash operation satisfies fast verification (which facilitates verification of the results by each node in the network), adjustable difficulty values (which can be adjusted for the overall computing power), and relative fairness (that is, the probability of each miner solving a hash calculation is proportional to its computational power). different random values correspond to different block header information with a length of 80 bytes. According to the whole network, The difficulty of mining will be dynamically adjusted. When more than one miner solves the same hash puzzle at the same time, There will be forks. At this point block chain network needs to decide which chain is the main chain. If there's a bifurcation in the bitcoin system, Block chains with more computational power will be selected as valid chains. Workload proves that there are many algorithms for consensus mechanisms, e.g. OMG use intelligent contract automatic execution and so on. New algorithms are developed primarily to prevent a single entity from launching a cumulative attack, and ensure that special application integrated circuit ASIC can not be implemented on a large scale. OMG adopted the equity consensus mechanism on the latest bitcoin source code technology.
+
+During traditional POS+DPBFT transactions, the generation of new blocks must satisfy the following conditions: an attacker can exploit the ability to accumulate large amounts of currency age and launch a double-flower attack. Another problem caused by the age of coins is that nodes are intermittently online after being rewarded, rather than continuously online. As a result, in subsequent versions of the POS+DPBFT, the coinage was removed to encourage more nodes to agree online simultaneously. reward for long-time node users online, and cancel the incentive measures for the holder's offline wallet.
+
+4.2 Proof of interest
+Because OMG focus on smart contracts and blockchain computing, transaction processing takes more time to interact and execute with smart contracts, so more dynamic cost mechanisms are needed. Among these are several security risks affecting PoW+POS+DPBFT. A bigger risk is that the attacker can execute malicious programs by paying expensive fees, but because these fees will be attributed to the block producer, the ultimate attacker will pay little. Encrypted currencies based on existing POS+DPBFT systems will not be affected by such attacks because they do not support Turing's complete smart contracts.
+
+PoW+POS+DPBFT is the first blockchain based on PoW and smart contracts, gas mechanisms for standardizing computing uses and capabilities allowed on the blockchain are implemented, Used to partially solve useless problems arising from spam trading attacks. Using a consensus mechanism, but changed the payment system of block rewards and transaction costs. Compared with the block producers receiving immediate block incentives and transaction costs, The new approach is that rewards and transaction costs are shared among multiple diggers in the network. Specifically, Block producers receive 1/10 of the total cost when generating blocks, After the scheduled block confirmation time, can receive 1/10 of the cost of another 9 blocks. This new approach seems to have been slightly altered, But it solves several security risks that affect OMG. A bigger concern is, An attacker can become a possible block producer by buying enough coins, makes the network vulnerable to unbalanced treatment through some opcodes. It only costs a little, Even malicious transactions cost transaction fees and gas, An attacker can execute a malicious program at a high cost, But since these costs are attributable to the block producers, eventually the attacker will pay little. For PoW+POS+DPBFT use, It wouldn't have happened, Creating blocks is a gas fee of only one tenth, Unless he can dig out nine more blocks in a row, If not, the remaining 9/10 of the gas costs will be lost as part of the distribution diggers on the network. As a result, this type of junk trading attack becomes expensive. When a block is generated, The reward transaction of the block producer must contain at least 10 outputs. The first output belongs to the block producer, Can receive their own currency for OMGake and 1/10 of the transaction costs, the other nine outputs belong to the block producers before 500 blocks. When a block is generated, Add a recipient of incentive fees, And minus another receiver, So the total number of receivers has always been 10. Another 9/10 of the incentives for block producers will be after 500 blocks, (+501, +502,...,+509)1/10 of each block award.
+
+The technology also has some shortcomings, but combining other technologies can solve potential problems. A malicious block producer can choose to accept his own transaction at a very low gas price, thereby minimizing the currency spent for execution and attack. This can be avoided by dynamically adjusting the minimum gas price, which is achieved through decentralized autonomous agreement OMG. This mechanism can control all kinds of garbage transactions and contracts, whether they are malicious or not.
+V. Turing validation
+As another core hub of OMG and twin-stranded ecology, it is a main chain hatched by OMG, which takes the lead in realizing the value interconnection between block chains through innovative intelligent contracts and other blockchain technology achievements. It not only realizes the cross-chain, but also has Turing complete intelligent contract function, which lays the foundation for realizing the complex distributed business application. OMG also has the following characteristics:
+1. adopt consensus and have the decentralized consensus algorithm used in the decentralized mine pool, that is, the consensus of random multi-asset equity pledge.
+2. have four roles in ecology. Including:
+
+(1) All users on the chain and all users on other links with each other. An average user can pay a small portion of the OMG as a node ticket (this fee will be destroyed). can accept the asset pledge of other users on the chain.Producers and community administrators on the OMG chain, responsible for accounting and production blocks, are the decentralized pools on the chain.OMG need to provide multi-asset pledge on the chain (will get a higher weight) that can be provided by itself or by other user support. When the pledged assets are insufficient, it is almost impossible to become an ecological asset manager and community administrator. Responsible for consensus management of assets in multiple signature hot and cold addresses on other chains, and cross-chain circulation must be achieved by consensus. become nodes as a liability margin, OMG turnover is determined by OMG voting. Get an opportunity and reward to get an independent block through the pledged assets. And can also be pledged assets to the mine pool mining incentives. After the new blocks are produced, the system automatically assigns rewards to its supporters according to the weight of the deposit based on the built-in underlying protocol. this process of pledge allocation is achieved by RPPOM consensus. This kind of pledge mechanism has the following obvious advantages: the pledge mining is verified by the whole network node together, after receiving the block reward, the underlying agreement built in the system will automatically be allocated according to the pledge gold weight, and there will not be many uncertain factors like the central mine pool. A similar POS+DPBFT mine pool actually requires the user to transfer funds to the mine pool, and the chain is only a pledge of assets, the private key is still kept by itself, no transfer to other addresses, there will be no security problems, the user can withdraw the pledged assets at any time.
+
+(2)100% reserve, safe and reliable To ensure the stability and security of OMG ecosystems, the reserve ratio is 100%, each OMG has a real original chain asset in the original chain by consensus-managed multiple signature hot and cold address. This ensures that all assets are not added or destroyed out of thin air, and that each increase or decrease corresponds one by one to the user's recharge or withdrawal of assets on the original chain.
+
+(3) Efficient and consistent with consensus, The main chain produces a block every five seconds, One block per 10 minutes for BTC and one block per 2.5 minutes for LTC, The speed of transaction confirmation has improved significantly. The performance of BTC or LTC asset transfers or transactions on the main chain is about 120 times that of the main chain, 30 times the LTC. theory TPS( number of transactions processed per second) reaches 10,000, enough to carry high load transactions on multiple chains.
+
+Mainstream public chain performance comparison from the above comparison we can see, At mass velocity, block size and theoretical TPS, And its performance is BTC、LTC、ETH、NEO and so on chain has the obvious enhancement, Block spacing is 3 seconds, A theoretical TPS of 10,000, sufficient to meet high frequency, high capacity business requirements. Though there's a gap with the TPS of OMG theory, But it should be noted that OMG supernodes require very stable network connections between servers, and its performance requirements for the server are high. OMG block production mechanism is 21 super nodes to produce blocks in sequence, The rules are clear, It risks being attacked, such as DNS fraud, DDOS, etc. By contrast, Performance requirements for servers and networks are less high, More adaptable, easier access to resources on other chains. And, blocks of production are randomly selected from all candidates that satisfy the quality deposit. This means there's a lot of uncertainty about the node, difficult to be found in the network. So we can avoid the risk of network attack to the maximum extent in the mechanism, And some nodes are attacked completely will not affect the stability of the whole network.
+5.1 Edge calculations
+OMG create DAPP, through edge computing on the side of the data source, using the network, computing, storage, application of core capabilities as one of the open platform, the nearest to provide services. and its applications are initiated on the edge side to generate faster network service response to meet DAPP basic needs in real-time business, application intelligence, security and privacy protection. edge calculations are between physical real connections, or at the top of physical entities. while cloud computing, still can access the historical data of edge computing.
+
+六．Decentralization applications (DAPP)
+OMG decentralization application (Dapp) runs on a distributed network, the information of the participants is anonymous security protection, through the network node different people, the application of decentralization operation. From OMG point of view, it is a transaction agreement, a contract or set of contracts executed according to the conditions set on the OMG.
+
+6.1 OMG Decentralization application definition
+Dapp have different definitions for different developers.
+General developer definition
+A common developer's definition of Dapp is an application that runs on a distributed network, where participants' information is anonymously secured and decentralized through network nodes.
+Advanced developer definition
+OMG defines a smart contract/ Dapp as a transaction protocol, a contract or set of contracts executed according to the conditions set on the block chain.
+geek developer definition
+Geek developers provide what they see as a stricter definition of Dapp. Dapp must have three characteristics in their view:
+1. applications must be open source, mostly run autonomously by tokens issued by Dapp rather than controlled by an entity, and all data and records must be encrypted and stored on open and decentralized blockchains.
+2. applications must generate tokens through a standard algorithm or set of criteria, some or all of which may be allocated at the beginning of the operation. These tokens must be used according to the needs of the application, and any user who provides the contribution should receive the token reward paid by the application.
+3. applications can improve and adjust their protocols based on market feedback, all changes must be agreed by most of its users. But overall, each blockchain project will have some differences in the exact technology of the composition conditions for decentralized applications.
+VII. OMG application scenarios
+The OMG relies on the completion of up to 16 platform enabling application scenarios, including fee discounts, OMEGAEX 、 margin lockups, coin voting, franchise fees, Dapp platform usage, leveraged trading fees, additional services, ad space fees, margin payments, future decentralization of exchange fuel, trading channels (French currency/coin), exchange security services, financial services, application services, coinage, etc.
+
+OMG has expanded to cover payment, trading, market software, wallet, lending and financing, technology security, travel, life services, entertainment, social, electronic contracts, O2O and other external applications large-scale scenarios.
+
+VIII. Issue of Pass Card
+OMG it is a global generic coin,, abbreviation issued by OMG. FoundationThe OMEGA Foundation is committed to building OMG into an important part of its ecology and will be used in OMEGA platforms and OMG investment in various ecological chain projects.
+
+8.1 Issuance Scheme	
+OMG Access to Pass
+OMG is the OMEGA trading platform itself equity certificate, the total amount of issuance is constant to 100 million, never additional issuance. Holders can enjoy asset appreciation, platform income rebate, supervision, mining, voting and other series of rights and interests. There are three ways to obtain OMG: one is to dig, the other is to purchase OMEGA trading platform, and the third is to participate in the original collection, OMG the distribution ratio of tokens is:
+95 per cent of mining output
+4% for project foundation operation, one year later, unlock by phase
+1% for platform subscription
+
+
+
+
+
+8.2 Fund-use programmes
+OMG the exchange of tokens will be used for ecological construction
+1. recruit mobile and Web end program developers, recruit blockchain underlying technology developers, recruit programmed transactions, automated transactions, quantitative transactions, cross-station arbitrage developers.
+2. set up the OMG Foundation as a risk reserve.
+3. used in mainstream media news reports, publicity, industry financial programs interviews, live, precision advertising, marketing, road shows and so on.
+4. set up OMG communities, recruit community managers and volunteers, and maintain and operate community daily operations and offline activity organizations.
+
+8.3 OMG destruction plan
+a.OMEGA Exchange Repurchase Destruction Mechanism
+We will directly destroy 60% of the exchange platform's quarterly net profit for repo OMG, repo every quarter after the launch of the OMEGA exchange platform, and the repo address record will be published as soon as possible, and users can check through the blockchain browser to ensure transparency until the total OMG is only 21000000.
+
+b. multi-core destruction mechanisms
+Through the construction of the platform, we destroy many core aspects. Create greater value and appreciation through asset circulation.
+
+Community Rights Mechanism
+OMEGA exchanges OMG community operations are entirely self-governing by community users. The decision-making of matters is chosen by the community users themselves. Community construction concept, create, consensus, co-governance, sharing, win-win.
+
+九．Strategic plan
+
+Team ecological planning
+2019- Q2. founding team began planning for blockchain-based trading and mining sectors
+2019- Q4. basic blockchain technical framework and business framework are planned and developed at protocol and platform levels
+2020-- Q1. white paper, online, trading platform partners start recruiting
+2020- Q2.APP public survey, business team set up to open the national mining plate.
+2020- Q3. access brand enterprises, complete application landing
+2020- Q4. completion of DAPP applications online, access to commercial bodies,
+2021- Q1. completion of financial DAPP industry layout and distribution of financial derivatives
+2021- Q2.APP upgrade, launch of global application landing and community outreach
+
+Technology development planning
+2019Q2 team formation, project start development
+2019Q4 concept testing, presentation,
+2020Q1 develop private chains, set up nodes, open mining
+2020Q2 development of application technology scheme version 1.0, application testing online
+2020Q 3 launch the main chain development technology version 2.0, block chain browser online
+2020Q4 complete the main network online, exchange 2.0 online, DAPP access developers and enterprises
+2021Q1 completion of OMEGA ecological development
+2021Q2 launch of public chain development technology version 3.0
+(x) Risk alerts
+note: as noted elsewhere in these clauses, OMG currency is not designed or sold in the form of currency, securities or any other form of investment product. Therefore, the information provided in this section does not constitute the basis for any investment decision and is not intended to provide specific recommendations. The Foundation expressly refuses to accept any and all liability for any direct or indirect loss or damage caused, directly or indirectly, by:
+1. rely on any information contained in this section.
+2. any such error, omission or inaccuracy information.
+3. any action arising from this information.
+you acknowledge and agree that there is a risk in buying, owning and using OMG coins. By purchasing, holding and using OMG coins, you explicitly acknowledge and take the following risks:
+risk of losing access to OMG currency due to loss of private key, custody error or purchase error. A private or private key combination is necessary to control and process OMG coins stored in your purchaser's electronic wallet or other digital wallet or repository. As a result, the loss of the necessary private key associated with your purchaser's electronic wallet or other digital wallet or custody OMG stored coins will result in the loss of these coins. Furthermore, any third party that obtains such a private key (including access to your purchaser's e-wallet or other login credentials for your digital wallet or repository service) may steal your OMG currency. any errors or failures resulting from or associated with the purchaser's electronic wallet or other digital wallet or vault that you choose to receive and store OMG coins, including your own failure to properly maintain or use such purchaser's electronic wallet or other digital wallet or depository, may also result in the loss of your OMG coins. Also, if you fail to purchase and receive OMG coins strictly in accordance with the prescribed procedures, it may also cause your OMG coins to be lost.
+(xi) Disclaimer
+OMG, is a digital encrypted currency with OMG platform as one of its usage scenarios.
+OMG is not an investment, we can not guarantee that OMG will add value, but it is also possible that in some cases the value will decline. In view of the unpredictable situation, the objectives set out in this white paper may change. Although the team will do its best to achieve all the objectives of this White Paper, all individuals and groups buying OMG will take risks at their own expense.
+OMG certificate is not a form of ownership or control and the control OMG does not represent control over ownership of OMG platforms or OMG applications.
+OMG does not grant any individual right to participate, control, or any decision on OMG and OMG applications.
+Risk Tip:
+1. risk tolerance.Because the market environment is closely related to the whole situation of the digital money market, such as the overall market situation is weak, or there are other uncontrollable factors, it may cause the digital currency itself, even if it has a good prospect, but the price is still underpriced for a long time. In addition, the card is traded in the open market, usually the price fluctuates sharply. Such fluctuations may result from market forces (including speculative trading), regulatory policy changes, technological innovations, the availability of exchanges and other objective factors, which also reflect changes in the balance of supply and demand. regardless of the existence of a secondary market for OMG transactions, the project party is not liable for OMG transactions in any secondary market. Accordingly, the risk involved in OMG trading prices is borne by OMG traders themselves.
+2. regulatory risks.Because the development of block chain is still in the early stage, there are no relevant regulatory documents, such as pre-requirements, transaction requirements, information disclosure requirements, lock-in requirements and so on, all over the world, including China. And how the policy will be implemented is unclear, and these factors may have an uncertain impact on project investment and liquidity. And blockchain technology has become the main object of regulation in all major countries in the world, and the existing regulatory license or tolerance for OMG or this public sale in any country may be only temporary. from time to time, the project party may receive inquiries, notices, warnings, orders or rulings from one or more competent authorities, and may even be ordered to suspend or terminate any action regarding this open sale, OMG development.Development, marketing, promotion or other aspects of the OMG, as well as this public sale, may therefore be seriously affected, obstructed or terminated. At the same time, OMG may at any time be defined as virtual goods, digital assets or even securities or currencies, so in some countries OMG may be prohibited from trading or holding as required by local regulation. furthermore, procedures that are prohibited or restricted in a particular jurisdiction, such as those involving gambling, betting, lottery, lottery, pornography, etc., may be exploited, promoted, marketed or operated using the non-access requirements of OMG blockchain. P regulatory authorities in a particular jurisdiction may take appropriate administrative or judicial measures against a particular process or even its developers or users. The penalties, penalties, sanctions, repression or other regulatory measures imposed by any government authority may more or less frighten or deter existing or potential users OMG use OMG systems and hold them OMG, thereby having a significant adverse impact on the prospects for OMG.
+Caution: This is a high risk item Given the attributes of the project business model and the project is in an early stage of development, the OMG in this document should be considered a high risk item. The purchaser should already know the potential risk of the project, and the project is only suitable for the purchaser who can bear the risk of the project. Furthermore, the purchaser should consider other risks before purchasing the OMG and suggest consulting relevant professionals on income tax, law and other related matters before purchasing.
+3. information disclosure incomplete risk.OMG platform is still in the development phase and its philosophy, consensus mechanisms, algorithms, code and other technical details and parameters may be updated and changed frequently and continuously. Although OMG platform's white paper contains the latest key information OMG the platform, it is not absolutely complete and will be adjusted and updated from time to time by the project side for specific purposes. Because the project party is unable and obliged to keep participants informed OMG every detail in the development of the platform (including its progress and expected milestones, whether delayed or not), participants are not necessarily informed of information generated from time to time OMG the development of the platform. Inadequate disclosure of information is inevitable and reasonable.
+4. systemic risk.the risk of neglected fatal defects in open source or large-scale failures of global network infrastructure. While some of these risks will be significantly mitigated over time, such as fixing loopholes and breaking through computational bottlenecks, others remain unpredictable, such as political factors or natural disasters that may lead to partial or global Internet disruption. Unforeseen other risks based on cryptography is a completely new and untested technology, in addition to the risks mentioned in this white paper, there are some risks that the founding team has not mentioned or anticipated, in addition to other risks that may arise suddenly or in a combination of multiple risks already mentioned.
+5. competition risk.With the development of information technology and mobile Internet, digital assets represented by "Bitcoin" are rising gradually, all kinds of centralized and decentralized digital asset exchanges continue to emerge, and the competition in the industry is becoming increasingly fierce. Although the OMG platform will quickly realize the flow of assets and the activity of the platform by injecting hundreds of millions of dollars of digital assets in multiple rounds of financing and tens of thousands of users, with the emergence and expansion of other trading platforms, the company will face sustained operational pressure and certain market competition risks. The project party can not in any case eliminate, prevent, restrict or reduce such competitive efforts aimed at competing with or replacing OMG.
+risk of uninsured losses is not like bank accounts or accounts of other financial institutions, stored on OMG accounts or related blockchain networks usually without insurance coverage, and losses in any case will not be covered by any public individual organization for your losses.
+risk of loss of 6. private key.A purchaser's digital currency OMG, after extracting its own digital wallet address, the only way to operate the contents contained in the address is the purchaser's relevant key (i.e. private key or wallet password). The user individual is responsible for protecting the relevant key for signing a transaction that certifies ownership of the asset. user understands and accepts that this may be irreversible if the private key necessary to access the OMG is lost or destroyed. OMG. can be operated only if the associated unique public and private keys are held through local or online OMG wallets Each purchaser should keep the private key of his OMG wallet properly.
+Neither the Project Party nor any other person OMG assist the purchaser in accessing or retrieving the relevant OMG. if such private keys are lost, lost, leaked, destroyed or endangered Also, keep OMG wallet safe (especially the private key) to enjoy the rewards and gifts attached to the purchase OMG.OMG should be extracted to the user's absolute control of the wallet. Once the OMG is transferred or transferred for any reason, the outstanding rewards and gifts attached to the OMG will not be available. The best way to store login credentials safely is for the purchaser to separate keys to one or more places for safe storage, and preferably not on a public computer. Whoever obtains access to the purchaser's registered mailbox or registered account by decrypting or cracking the OMG purchaser's password will be able to claim the OMG. purchased in this public sale maliciously Accordingly, the OMG purchased by the purchaser in this public sale may be wrongly sent to the purchaser's registered mailbox or registered account.
